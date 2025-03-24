@@ -12,6 +12,7 @@ import Contact from './components/form/contact.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div className='body-blue min-h-screen h-auto text-white font-tektur'>
+      <h1>test</h1>
       <Nav />
       <Hero />
       <Biographie />
