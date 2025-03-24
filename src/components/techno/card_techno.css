@@ -1,0 +1,34 @@
+.my-green {
+    color: #4FD197;
+}
+
+.bg-segondaire {
+    background-color: #192C41;
+    /* #284059 ???*/
+}
+
+.bg-secondaire{
+    background-color: #284059;
+}
+
+.custom-border {
+    border-top: 3px solid #4FD197;
+    border-right: 3px solid #4FD197;
+    border-left: 3px solid #4FD197;
+    box-shadow: inset 0px -8px 15px #4FD197;
+}
+
+.custom-environement {
+    border-top: 3px solid #6EBDB1;
+    border-right: 3px solid #6EBDB1;
+    border-left: 3px solid #6EBDB1;
+    box-shadow: inset 0px -8px 15px #6EBDB1;
+}
+
+.bg-environnement{
+    color: #6EBDB1;
+}
+
+.dot{
+    background-color: #6EBDB1;
+}

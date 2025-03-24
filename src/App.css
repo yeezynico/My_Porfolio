@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap'); /* de 400 a 900*/
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.body-blue {
+    background-color: #192C41;
+}
+
+.bg-secondaire{
+    background-color: #284059;
+}
+
+.text-perso-vert {
+    color: #4FD197;
+}
+
+.bg-perso-vert {
+    background-color: #4FD197;
+}
+
+html {
+    scroll-behavior: smooth;
+}
