@@ -1,4 +1,6 @@
-@import "tailwindcss";
+.tektur {
+    font-family: 'tektur', sans-serif;
+}
 
 /* btn nav */
 button {
@@ -10,8 +12,8 @@ button {
     background-color: transparent;
     border: none;
     font-size: 13px;
-    font-weight: bold;
     color: #ddebf0;
+    font-family: 'tektur', sans-serif;
 }
 
 #clip {
@@ -48,13 +50,15 @@ button {
 button:hover #rightArrow {
     background-color: #27c39f;
     left: -15%;
-    animation: 0.6s ease-in-out both infinite alternate rightArrow8; /* animation de la flèche droite*/
+    animation: 0.6s ease-in-out both infinite alternate rightArrow8;
+    /* animation de la flèche droite*/
 }
 
 button:hover #leftArrow {
     background-color: #27c39f;
     left: 103%;
-    animation: 0.6s ease-in-out both infinite alternate leftArrow8; /* animation de la flèche gauche*/
+    animation: 0.6s ease-in-out both infinite alternate leftArrow8;
+    /* animation de la flèche gauche*/
 }
 
 .corner {
@@ -154,12 +158,26 @@ button:hover #clip {
     }
 }
 
-@keyframes rightArrow8 { /* nimation de la flèche qui bouge ( statique )*/
+@keyframes rightArrow8 {
+
+    /* nimation de la flèche qui bouge ( statique )*/
     from {
         transform: translate(0px);
     }
 
     to {
         transform: translateX(-10px);
+    }
+}
+
+@media (max-width: 905px) {
+    .arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 572px) {
+    button {
+        width: 9em;
     }
 }

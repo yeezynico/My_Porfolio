@@ -14,10 +14,10 @@ export const ContactUs = () => {
             })
             .then(
                 () => {
-                    alert('SUCCESS!');
+                    alert('Email envoyer !');
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    alert('Il faut remplire tous les champs !', error.text);
                 },
             );
     };
@@ -25,7 +25,7 @@ export const ContactUs = () => {
     return (
             <div className="w-full flex justify-center items-center">
 
-                <div className="w-100 max-w-sm p-6 bg-secondaire border border-green-300 rounded-lg shadow-sm">
+                <div className="w-100 max-[741px]:w-90 max-[633px]:w-80 max-[491px]:w-70 p-6 bg-secondaire border border-green-300 rounded-lg shadow-sm">
 
                     <form ref={form} onSubmit={sendEmail} className="max-w-sm mx-auto">
                         <div className="mb-5">
@@ -42,8 +42,8 @@ export const ContactUs = () => {
                         <textarea name="message" rows="4" className="p-2.5 mb-10 w-full text-sm rounded-lg border border-green-300 focus:outline-1 focus:outline-offset-0 focus:outline-green-300" placeholder="votre message..."></textarea>
 
                         <div className="bg-perso-vert hover:bg-perso-vert text-center rounded-full cursor-pointer">
-                            <button type="submit" value="Send" >
-                                <p className="text-sm font-medium text-black cursor-pointer">
+                            <button type="submit" value="Send" className='cursor-pointer'>
+                                <p className="text-sm font-medium text-black">
                                     Validé
                                 </p>
                             </button>

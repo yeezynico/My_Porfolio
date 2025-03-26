@@ -3,8 +3,31 @@
     width: 20%;
     height: 320px;
     perspective: 1000px;
-    margin: 2% 5%;
 }
+
+@media (max-width: 1204px) {
+    .myCard {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .myCard {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .myCard {
+        width: 70%;
+    }
+}
+
+/* @media (max-width: 480px) {
+    .myCard {
+        width: 70%;
+    }
+} */
 
 .title {
     font-size: 1.5em;

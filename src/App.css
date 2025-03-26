@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap'); /* de 400 a 900*/
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
 @import "tailwindcss";
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+
+
+.tektur {
+    font-family: 'tektur', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.Orbitron {
+    font-family: 'Raleway', sans-serif;
+}
 
 .body-blue {
     background-color: #192C41;
 }
 
-.bg-secondaire{
+.bg-secondaire {
     background-color: #284059;
 }
 

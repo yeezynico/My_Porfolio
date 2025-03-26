@@ -11,7 +11,7 @@ export default function Project_card({ src, alt, href, path, path_name }) {
                     </div>
                     <div className="backSide">
                         <div className='flex gap-2'>
-                            <div className=''><FaGithub /></div>
+                            <div className=''><FaGithub size={30}/></div>
                             <a href={href} target="_blank">Github</a>
                         </div>
                         <a href={path} target="_blank">{path_name}</a>
