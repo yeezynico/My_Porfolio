@@ -1,3 +1,7 @@
+.text-backCard{
+    color: rgba(0, 0, 0, 0.736);
+}
+
 .myCard {
     background-color: transparent;
     width: 20%;
@@ -56,7 +60,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 25px;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;

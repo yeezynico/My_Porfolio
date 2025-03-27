@@ -8,6 +8,8 @@ import Biographie from './components/biographie/biographie.jsx'
 import Projet from './components/projet/projet.jsx'
 import Techno from './components/techno/techno.jsx'
 import Contact from './components/form/contact.jsx'
+import Footer from './components/footer/footer.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +20,7 @@ createRoot(document.getElementById('root')).render(
       <Projet />
       <Techno />
       <Contact />
+      <Footer />
     </div>
   </StrictMode>,
 )
