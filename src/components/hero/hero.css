@@ -1,0 +1,17 @@
+.animation{
+    animation: mysphere 6s infinite;
+}
+
+@keyframes mysphere {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
