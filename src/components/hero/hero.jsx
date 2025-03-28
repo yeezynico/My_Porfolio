@@ -1,5 +1,5 @@
 import BtnNav from "../nav/btn_nav";
-import './hero.css';
+import './hero.css'
 
 export default function Hero() {
     return (

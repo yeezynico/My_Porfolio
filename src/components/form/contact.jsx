@@ -7,7 +7,7 @@ export default function Contact() {
 
             <div className="relative">
 
-                <div className="flex justify-center items-center gap-3 mt-5">
+                <div className="flex justify-center items-center gap-3 mt-9">
                     <div className="w-5 h-5 bg-perso-vert rounded-full"></div>
                     <h2 className="text-2xl font-bold mt-15 mb-15 tektur">Contact :</h2>
                 </div>

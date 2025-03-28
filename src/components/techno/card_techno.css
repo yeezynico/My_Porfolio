@@ -7,7 +7,7 @@
     /* #284059 ???*/
 }
 
-.bg-secondaire{
+.bg-secondaire {
     background-color: #284059;
 }
 
@@ -25,10 +25,41 @@
     box-shadow: inset 0px -8px 15px #6EBDB1;
 }
 
-.bg-environnement{
+.bg-environnement {
     color: #6EBDB1;
 }
 
-.dot{
+.dot {
     background-color: #6EBDB1;
 }
+
+
+/* animation techno
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.marquee-track {
+    display: flex;
+    gap: 40px;
+    width: max-content;
+    /* animation: marquee 10s linear infinite alternate; */
+    /* animation: marquee 20s linear 1s infinite running; */
+    /* animation: marquee 13s ease-in 20s infinite reverse running; */
+/* } */
+
+/* .marquee-track:hover {
+    animation-play-state: paused;
+} */

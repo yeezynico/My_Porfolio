@@ -6,7 +6,7 @@ export default function Nav() {
 
     return (
         <>
-            <nav className='flex flex-wrap justify-around fixed left-0 right-0 z-90 bg-neutral-950/50 backdrop-blur-xs'>
+            <nav className='flex flex-wrap justify-around fixed left-0 right-0 z-90 bg-neutral-950/50 backdrop-blur-xs py-2'>
                 <a href="#hero"> <BtnNav props="Accueil" /> </a>
                 <a href="#À-propos"> <BtnNav props="À propos" /> </a>
                 <a href="#Projet"> <BtnNav props="Projet" /> </a>

@@ -2,8 +2,8 @@ import '../../App.css'
 
 export default function Biographie() {
     return (
-        <section id="À-propos" className="pt-[40px]">
-            <div className="flex justify-center items-center gap-3">
+        <section id="À-propos" className="pt-[60px]">
+            <div className="flex justify-center items-center gap-3 mb-5">
                 <div className="w-5 h-5 bg-perso-vert rounded-full"></div>
                 <h2 className="text-2xl font-bold mt-15 mb-15 tektur">À Propos de moi :</h2>
             </div>

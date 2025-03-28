@@ -3,9 +3,9 @@ import Project_card from "./projet_card"
 export default function Projet() {
     return (
         <>
-        <section id="Projet" className="pt-[20px]">
+        <section id="Projet" className="pt-[40px]">
 
-            <div className="flex justify-center items-center gap-3 mt-5">
+            <div className="flex justify-center items-center gap-3 mt-5 mb-5">
                 <div className="w-5 h-5 bg-perso-vert rounded-full"></div>
                 <h2 className="text-2xl font-bold mt-15 mb-15 tektur">Projet :</h2>
             </div>

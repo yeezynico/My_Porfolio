@@ -4,6 +4,8 @@ import '../../App.css'
 export default function BtnNav({props}) {
     return (
         <>
+        <div className=''>
+
             <button className='cursor-pointer'>
                 <p>{props}</p>
                 <div id="clip">
@@ -15,6 +17,7 @@ export default function BtnNav({props}) {
                 <span id="rightArrow" className="arrow"></span>
                 <span id="leftArrow" className="arrow"></span>
             </button>
+        </div>
         </>
     )
 }
