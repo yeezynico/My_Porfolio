@@ -34,7 +34,7 @@
 }
 
 
-/* animation techno
+/* animation techno */
 @keyframes marquee {
     from {
         transform: translateX(0);
@@ -55,11 +55,9 @@
     display: flex;
     gap: 40px;
     width: max-content;
-    /* animation: marquee 10s linear infinite alternate; */
-    /* animation: marquee 20s linear 1s infinite running; */
-    /* animation: marquee 13s ease-in 20s infinite reverse running; */
-/* } */
+    animation: marquee 25s linear infinite;
+}
 
-/* .marquee-track:hover {
+.marquee-track:hover {
     animation-play-state: paused;
-} */
+}
