@@ -17,7 +17,7 @@ export default function Techno() {
                 </div>
 
                 {/* animation  */}
-                <div className="relative w-full">
+                {/* <div className="relative w-full">
                     <div className="absolute top-0 left-0 w-20 h-full bg-gradient-to-r from-black backdrop-blur-md z-90"></div>
                     <div className="absolute top-0 right-0 w-20 h-full bg-gradient-to-l from-black backdrop-blur-md h-full z-90"></div>
 
@@ -28,7 +28,7 @@ export default function Techno() {
                             ))}
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* animation  */}
 
 
