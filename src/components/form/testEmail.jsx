@@ -39,7 +39,7 @@ export const ContactUs = () => {
                         </div>
 
                         <label for="message" className="block mb-2 text-sm font-medium">Votre message</label>
-                        <textarea name="message" rows="4" className="p-2.5 mb-10 w-full text-sm rounded-lg border border-green-300 focus:outline-1 focus:outline-offset-0 focus:outline-green-300" placeholder="votre message..."></textarea>
+                        <textarea name="message" rows="4" className="p-2.5 mb-10 w-full text-sm rounded-lg border border-green-300 focus:outline-1 focus:outline-offset-0 focus:outline-green-300" placeholder="Votre message..."></textarea>
 
                         <div className="bg-contact-vert hover:bg-contact-vert text-center rounded-full cursor-pointer">
                             <button type="submit" value="Send" className='cursor-pointer'>
