@@ -18,7 +18,7 @@ export default function Hero() {
                     <div className="absolute w-50 h-50 animation max-[904px]:w-40 max-[904px]:h-40 max-[777px]:w-30 max-[777px]:h-30 max-[546px]:w-20 max-[546px]:h-20 bg-green-400 rounded-full blur-3xl top-[50%] left-[78%] max-[777px]:left-[78%] max-[370px]:left-[75%]"></div>
 
                     <div className="w-full flex justify-evenly mt-8">
-                        <a href="https://www.linkedin.com/in/nicolas-vanbreusegem-569709325/" target="_blank"><BtnNav props="Linkedin" /></a>
+                        <a href="https://www.linkedin.com/in/nicolas-vanbreusegem-569709325/" target="_blank"><BtnNav props="LinkedIn" /></a>
                         <a href="CV_alternance.pdf" download="CV_Nicolas_Vanbreusegem"><BtnNav props="Cv" /></a>
                     </div>
 

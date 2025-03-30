@@ -10,7 +10,7 @@ export default function Techno() {
 
                 <div className="flex justify-center items-center gap-3 mt-5">
                     <div className="w-5 h-5 bg-perso-vert rounded-full"></div>
-                    <h2 className="text-2xl font-bold mt-15 mb-15 tektur">Techno :</h2>
+                    <h2 className="text-2xl font-bold mt-15 mb-15 tektur">Technos :</h2>
                 </div>
                 <div className="flex justify-center flex-wrap gap-15 mr-5 ml-5">
                     {technos.map((techno, index) => <CardLogo icon={techno} key={index} />)}
@@ -34,7 +34,7 @@ export default function Techno() {
 
                 <div className="flex justify-center items-center gap-3 mt-5">
                     <div className="w-5 h-5 dot rounded-full"></div>
-                    <h2 className="text-2xl font-bold mt-15 mb-15 tektur">Environment :</h2>
+                    <h2 className="text-2xl font-bold mt-15 mb-15 tektur">Environnments :</h2>
                 </div>
                 <div className="flex justify-center flex-wrap gap-15 mr-5 ml-5">
                     {environements.map((techno, index) => <Card_environement icon={techno} key={index} />)}

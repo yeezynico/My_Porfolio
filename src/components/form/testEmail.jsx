@@ -14,7 +14,7 @@ export const ContactUs = () => {
             })
             .then(
                 () => {
-                    alert('Email envoyer !');
+                    alert('Email envoyé !');
                 },
                 (error) => {
                     alert('Il faut remplire tous les champs !', error.text);
@@ -44,7 +44,7 @@ export const ContactUs = () => {
                         <div className="bg-contact-vert hover:bg-contact-vert text-center rounded-full cursor-pointer">
                             <button type="submit" value="Send" className='cursor-pointer'>
                                 <p className="text-sm font-medium text-black">
-                                    Validé
+                                    Valider
                                 </p>
                             </button>
                         </div>
