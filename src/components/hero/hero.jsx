@@ -19,7 +19,7 @@ export default function Hero() {
 
                     <div className="w-full flex justify-evenly mt-8">
                         <a href="https://www.linkedin.com/in/nicolas-vanbreusegem-569709325/" target="_blank"><BtnNav props="LinkedIn" /></a>
-                        <a href="CV_Nicolas.Vanbreusegem.pdf" download="CV_Nicolas_Vanbreusegem"><BtnNav props="Cv" /></a>
+                        <a href="cv.nicolas.vanbreusegem.pdf" download="CV_Nicolas_Vanbreusegem"><BtnNav props="Cv" /></a>
                     </div>
 
                     <div className="bg-perso-vert w-full h-1 mt-12"></div>
