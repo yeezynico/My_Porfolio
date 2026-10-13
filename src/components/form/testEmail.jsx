@@ -29,17 +29,17 @@ export const ContactUs = () => {
 
                     <form ref={form} onSubmit={sendEmail} className="max-w-sm mx-auto">
                         <div className="mb-5">
-                            <label for="name" className="block mb-2 text-sm font-medium">Votre nom</label>
-                            <input type="text" name="name" className="border border-green-300 text-sm rounded-lg focus:outline-1 focus:outline-offset-0 focus:outline-green-300 w-full p-2.5" placeholder="Nom"></input>
+                            <label htmlFor="name" className="block mb-2 text-sm font-medium">Votre nom</label>
+                            <input type="text" id="name" name="name" className="border border-green-300 text-sm rounded-lg focus:outline-1 focus:outline-offset-0 focus:outline-green-300 w-full p-2.5" placeholder="Nom"></input>
                         </div>
 
                         <div className="mb-5">
-                            <label for="email" className="block mb-2 text-sm font-medium">Votre email</label>
-                            <input type="email" name="email" className="border border-green-300 text-sm rounded-lg focus:outline-1 focus:outline-offset-0 focus:outline-green-300 w-full p-2.5" placeholder="Email"></input>
+                            <label htmlFor="email" className="block mb-2 text-sm font-medium">Votre email</label>
+                            <input type="email" id="email" name="email" className="border border-green-300 text-sm rounded-lg focus:outline-1 focus:outline-offset-0 focus:outline-green-300 w-full p-2.5" placeholder="Email"></input>
                         </div>
 
-                        <label for="message" className="block mb-2 text-sm font-medium">Votre message</label>
-                        <textarea name="message" rows="4" className="p-2.5 mb-10 w-full text-sm rounded-lg border border-green-300 focus:outline-1 focus:outline-offset-0 focus:outline-green-300" placeholder="Votre message..."></textarea>
+                        <label htmlFor="message" className="block mb-2 text-sm font-medium">Votre message</label>
+                        <textarea id="message" name="message" rows="4" className="p-2.5 mb-10 w-full text-sm rounded-lg border border-green-300 focus:outline-1 focus:outline-offset-0 focus:outline-green-300" placeholder="Votre message..."></textarea>
 
                         <div className="bg-contact-vert hover:bg-contact-vert text-center rounded-full cursor-pointer">
                             <button type="submit" value="Send" className='cursor-pointer'>
