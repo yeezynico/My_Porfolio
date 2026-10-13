@@ -7,7 +7,7 @@ export default function Project_card({ src, alt, href, path, path_name, title, t
             <div className="myCard">
                 <div className="innerCard">
                     <div className="frontSide">
-                        <img src={src} alt={alt} className="w-full h-full object-cover rounded-xl"></img>
+                        <img src={src} alt={alt} loading="lazy" decoding="async" className="w-full h-full object-cover rounded-xl"></img>
                     </div>
                     <div className="backSide">
                         <div className='flex gap-2'>
@@ -16,7 +16,7 @@ export default function Project_card({ src, alt, href, path, path_name, title, t
                         </div>
                         <h2 className='text-backCard'>{title}</h2>
                         <p className='text-backCard'>{text}</p>
-                        <a href={path} target="_blank" className='text-backCard'>{path_name}</a>
+                        {path && <a href={path} target="_blank" className='text-backCard'>{path_name}</a>}
                     </div>
                 </div>
             </div>
